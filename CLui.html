@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Clothing Brand UI</title>
+    <style>
+        /* General styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 50%, #fad0c4 100%);
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffcc00;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: #333;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff6f61;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(45deg, #a1c4fd, #c2e9fb);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            background-color: #f5f5f5;
+        }
+
+        .product {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product h3 {
+            font-size: 1.4rem;
+            color: #333;
+            margin: 1rem 0;
+        }
+
+        .product p {
+            font-size: 1rem;
+            color: #777;
+            margin: 0 1rem 1rem;
+        }
+
+        .product button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 1rem;
+        }
+
+        .product button:hover {
+            background-color: #ff483d;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        MADDDRAS MENS' WEAR
+    </header>
+
+    <nav>
+        <a href="#">Veedu!</a>
+        <a href="#">Vaanganuma??</a>
+        <a href="#">Naange yaarna?</a>
+        <a href="#">Numberu venuma?</a>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <h1>Inge enneda paarvai!</h1>
+            <p>Welcome to our kadai !</p>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Product 1">
+            <h3>Pala Pala sokka!</h3>
+            <p>1pala pala vaanguna 2ndu pala pala free!!</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Product 2">
+            <h3>Poo poota sattai!</h3>
+            <p>Pathu sattai pannandu Roobha</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Product 3">
+            <h3>Pattern sokka!</h3>
+            <p>Anju satta 50 Rs</p>
+            <button>Shop Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rainbow Threads. All rights reserved.</p>
+    </footer>
+</body>
+</html>
